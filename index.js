@@ -11,7 +11,7 @@ require("dotenv").config({ path: "./config/config.env" });
 require("./config/db.js");
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://todoapp-hcz3.vercel.app/",
   method: ["GET", "POST", "PUT", "DELETE"],
 };
 
